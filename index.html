@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Omkar Salunke - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>Omkar</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <div class="intro-text">
+                <h1>Hello, I am Omkar Salunke</h1>
+                <h3>First year engineering student</h3>
+                <p>
+                    I am a Computer Science student. I like to learn about technology
+                    and programming. I learn by making small projects and working with others.
+                </p>
+                <p>Based in Pune, India</p>
+                <a class="button" href="#contact">Contact Me</a>
+                <a href="#projects">See my projects</a>
+            </div>
+            <img class="photo" src="assets/profile.jpeg" alt="Omkar Salunke">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a first year B.Tech Computer Science student at NIAT Pune.
+            I want to understand how technology works and how it can make
+            daily tasks easier.
+        </p>
+        <p>
+            I like to try new ideas, learn new tools and make small useful
+            projects. I believe practice, curiosity and teamwork are important
+            to become a good developer.
+        </p>
+
+        <div class="card">
+            <h3>Education</h3>
+            <p>B.Tech - Computer Science, NIAT Pune</p>
+            <p>First Year, AI Specialization</p>
+        </div>
+
+        <h3>My Interests</h3>
+        <ul class="interests">
+            <li>Programming</li>
+            <li>Problem Solving</li>
+            <li>Artificial Intelligence</li>
+            <li>Web Development</li>
+            <li>Building Projects</li>
+        </ul>
+
+        <h3>My Goal</h3>
+        <p>
+            To build strong basics, learn different areas of computer science
+            and become a good technology professional who makes useful things.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>These are the things I am learning in college and by practice.</p>
+
+        <div class="skills">
+            <div class="card">
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                <h3>Python</h3>
+                <p>Basics of programming and problem solving.</p>
+                <p class="level">Learning</p>
+            </div>
+
+            <div class="card">
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                <h3>HTML</h3>
+                <p>Making web pages.</p>
+                <p class="level">Basic</p>
+            </div>
+
+            <div class="card">
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                <h3>CSS</h3>
+                <p>Styling web pages.</p>
+                <p class="level">Basic</p>
+            </div>
+
+            <div class="card">
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>Basics of programming for the web.</p>
+                <p class="level">Beginner</p>
+            </div>
+
+            <div class="card">
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                <h3>Git and GitHub</h3>
+                <p>Saving code and working in a team.</p>
+                <p class="level">Basic</p>
+            </div>
+
+            <div class="card">
+                <img class="icon" src="assets/ai.svg" alt="AI">
+                <h3>AI Tools</h3>
+                <p>Trying out AI tools.</p>
+                <p class="level">Exploring</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects">
+            <div class="project">
+                <img src="assets/awaaz.svg" alt="Awaaz project">
+                <div class="project-text">
+                    <h3>Awaaz - Civic Issue Reporting</h3>
+                    <p class="level">Team project</p>
+                    <p>
+                        An idea where a photo of a problem like a pothole or garbage
+                        is turned into a complaint with details about the problem.
+                    </p>
+                    <p>Made with: Python, FastAPI, AI</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="assets/orbit.svg" alt="ORBIT project">
+                <div class="project-text">
+                    <h3>ORBIT - Voice Assistant</h3>
+                    <p class="level">Still working on it</p>
+                    <p>
+                        A voice assistant idea that listens to commands and does
+                        small tasks for the user.
+                    </p>
+                    <p>Made with: Python</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact">
+            <div class="contact-info">
+                <p>Have an idea? Feel free to message me.</p>
+                <p>Email: <a href="mailto:omkarsalunke180@gmail.com">omkarsalunke180@gmail.com</a></p>
+                <p>GitHub: <a href="https://github.com/omkarsalunke180" target="_blank">https://github.com/omkarsalunke180</a></p>
+            </div>
+
+            <form action="mailto:omkarsalunke180@gmail.com" method="post" enctype="text/plain">
+                <label>Name</label>
+                <input type="text" name="Name" required>
+
+                <label>Email</label>
+                <input type="email" name="Email" required>
+
+                <label>Subject</label>
+                <input type="text" name="Subject" required>
+
+                <label>Message</label>
+                <textarea name="Message" rows="5" required></textarea>
+
+                <button class="button" type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made by Omkar Salunke</p>
+        <a href="https://github.com/omkarsalunke180" target="_blank">GitHub</a>
+    </footer>
+
+</body>
+</html>
